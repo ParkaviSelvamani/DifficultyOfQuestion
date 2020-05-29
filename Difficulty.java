@@ -1,6 +1,6 @@
 import java.io.*;
 import java.util.*;
-class Difficulty {
+public class Difficulty {
 	public static void main(String[] args) throws Exception {
 		File file = new File("C:\\Users\\Parkavi\\Documents\\DifficultyofaQuestion.txt");
 		Scanner sc = new Scanner(file);
@@ -50,5 +50,6 @@ class Difficulty {
 				}
 			}
 		}
+		sc.close();
 	}
 }
